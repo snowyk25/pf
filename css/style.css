@@ -3,20 +3,11 @@
 
 *{
     color: #000;
-    font-family: Poppins, "Noto Sans JP", sans-serif;
-    font-weight: 300;
-}
-
-.noto {
     font-family: "Noto Sans JP", sans-serif;
     font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
 }
-
-
-/* ============================================= */
-/* Works ページ */
-/* ============================================= */
-
 header{
     display: flex;
     padding: 92px 75px;
@@ -30,9 +21,60 @@ header ul {
     align-items: center;
     gap: 8px;
 }
+header a {
+    font-family: Poppins, "Noto Sans JP", sans-serif;
+}
 header svg {
     margin-left: 60px;
 }
+h1{
+    font-size: 48px;
+    line-height: 160%; /* 76.8px */
+    letter-spacing: 1.44px;
+    font-family: Poppins, "Noto Sans JP", sans-serif;
+    font-weight: 300;
+}
+h2 {
+    font-size: 20px;
+    letter-spacing: 0.8px;
+}
+h3 {
+    text-align: center;
+    font-size: 20px;
+    line-height: 160%; /* 32px */
+    letter-spacing: 0.8px;
+}
+h4 {
+    font-family: Poppins, "Noto Sans JP", sans-serif;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 180%; /* 21.6px */
+    letter-spacing: 0.36px;
+}
+footer {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+}
+footer p {
+    color: #7F7F7F;
+    font-size: 11px;
+    line-height: 160%; /* 17.6px */
+    letter-spacing: 0.33px;
+}
+img {
+    width: 100%;
+}
+
+
+/* ============================================= */
+/* Works ページ */
+/* ============================================= */
+
 .top-wrapper {
     display: flex;
     padding: 60px 75px;
@@ -41,23 +83,16 @@ header svg {
     gap: 12px;
     align-self: stretch;
 }
-.top-wrapper h1{
-    font-size: 48px;
-    line-height: 160%; /* 76.8px */
-    letter-spacing: 1.44px;
-}
 .top-wrapper p {
-    font-size: 14px;
     line-height: 160%; /* 22.4px */
     letter-spacing: 0.42px;
+    font-family: Poppins, "Noto Sans JP", sans-serif;
 }
 .top-wrapper a {
     color: #504E4E;
     font-size: 12px;
-    line-height: 100%; /* 12px */
     letter-spacing: 0.48px;
 }
-
 .contact-labels {
     display: inline-flex;
     justify-content: center;
@@ -73,7 +108,9 @@ header svg {
     border-radius: 999px;
     border: 1px solid #EBEAEA;
 }
-
+.contact-label a {
+    font-family: Poppins, "Noto Sans JP", sans-serif;
+}
 .works-wrapper {
     display: flex;
     padding: 100px 0px 200px 0px;
@@ -89,19 +126,9 @@ header svg {
     align-items: flex-start;
     gap: 24px;
 }
-.work-content img {
-    width: 846px;
-    height: 435px;
-    aspect-ratio: 282/145;
-}
-.work-content h2 {
-    font-size: 20px;
-    line-height: 100%; /* 20px */
-}
+
 .work-content p {
     color: #504E4E;
-    font-size: 14px;
-    line-height: 100%; /* 14px */
     letter-spacing: 0.42px;
 }
 .work-content span {
@@ -113,7 +140,6 @@ header svg {
     border: 1px solid #EBEAEA;
     color: #504E4E;
     font-size: 12px;
-    line-height: 100%; /* 12px */
     letter-spacing: 0.48px;
 }
 .work-content-labels {
@@ -122,24 +148,12 @@ header svg {
     gap: 8px;
 }
 
-footer {
-    display: flex;
-    padding: 10px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    align-self: stretch;
-}
-footer p {
-    color: #7F7F7F;
-    font-size: 11px;
-    line-height: 160%; /* 17.6px */
-    letter-spacing: 0.33px;
-}
+
 
 /* ============================================= */
 /* About ページ */
 /* ============================================= */
+
 .about-wrapper {
     display: flex;
     padding: 100px 0px 200px 0px;
@@ -154,9 +168,6 @@ footer p {
     justify-content: center;
     align-items: center;
 }
-.about-image img {
-    width: 100%;
-}
 .about-introduce {
     display: flex;
     width: 404px;
@@ -164,26 +175,14 @@ footer p {
     align-items: center;
     gap: 24px;
 }
-.about-introduce h3 {
-    text-align: center;
-    font-family: "Noto Sans JP";
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 160%; /* 32px */
-    letter-spacing: 0.6px;
-}
 .about-introduce p {
     text-align: center;
-    font-family: "Noto Sans JP";
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 180%; /* 25.2px */
     letter-spacing: 0.42px;
+    line-height: 180%; /* 25.2px */
 }
 .about-introduce a {
     color: #504E4E;
     font-size: 12px;
-    line-height: 100%; /* 12px */
     letter-spacing: 0.48px;
 }
 .about-section {
@@ -193,24 +192,70 @@ footer p {
     align-items: center;
     gap: 20px;
 }
-.about-section h4 {
-    text-align: center;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 180%; /* 21.6px */
-    letter-spacing: 0.36px;
-}
 .about-section table {
     gap: 8px;
     align-self: stretch;
 }
 .about-section table th, td {
-    font-size: 14px;
-    font-weight: 400;
     line-height: 180%; /* 25.2px */
     letter-spacing: 0.42px;
     height: 25px;
 }
 .about-section table th {
     width: 120px;
+}
+
+/* ============================================= */
+/* Works ページ - 詳細 */
+/* ============================================= */
+
+.work-wrapper {
+    display: flex;
+    padding: 100px 0px 200px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    align-self: stretch;
+}
+.work-section {
+    display: flex;
+    width: 404px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.work-overview {
+    align-items: center;
+}
+.work-thumb {
+    width: 846px;
+}
+.work-section p {
+    text-align: center;
+    letter-spacing: 0.42px;
+    line-height: 180%;
+}
+.work-wrapper button a {
+    display: flex;
+    padding: 12px 28px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 999px;
+    border: 1px solid #EBEAEA;
+    color: #504E4E;
+    letter-spacing: 0.56px;
+}
+.work-section img {
+    width: 625px;
+}
+.work-wrapper ul {
+    width: 404px;
+    display: flex;
+    flex-direction: column;
+}
+.work-wrapper ul li {
+    list-style-type: disc;
+    list-style-position: inside;
+    line-height: 180%;
 }
