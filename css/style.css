@@ -136,3 +136,81 @@ footer p {
     line-height: 160%; /* 17.6px */
     letter-spacing: 0.33px;
 }
+
+/* ============================================= */
+/* About ページ */
+/* ============================================= */
+.about-wrapper {
+    display: flex;
+    padding: 100px 0px 200px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    align-self: stretch;
+}
+.about-image {
+    display: flex;
+    width: 845px;
+    justify-content: center;
+    align-items: center;
+}
+.about-image img {
+    width: 100%;
+}
+.about-introduce {
+    display: flex;
+    width: 404px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.about-introduce h3 {
+    text-align: center;
+    font-family: "Noto Sans JP";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 160%; /* 32px */
+    letter-spacing: 0.6px;
+}
+.about-introduce p {
+    text-align: center;
+    font-family: "Noto Sans JP";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 180%; /* 25.2px */
+    letter-spacing: 0.42px;
+}
+.about-introduce a {
+    color: #504E4E;
+    font-size: 12px;
+    line-height: 100%; /* 12px */
+    letter-spacing: 0.48px;
+}
+.about-section {
+    display: flex;
+    width: 404px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.about-section h4 {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 180%; /* 21.6px */
+    letter-spacing: 0.36px;
+}
+.about-section table {
+    gap: 8px;
+    align-self: stretch;
+}
+.about-section table th, td {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 180%; /* 25.2px */
+    letter-spacing: 0.42px;
+    height: 25px;
+}
+.about-section table th {
+    width: 120px;
+}
