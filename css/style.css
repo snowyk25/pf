@@ -114,12 +114,8 @@ img {
     gap: 8px;
 }
 .contact-label {
-    /* display: flex; */
-    /* padding: 10px 22px; */
     justify-content: center;
     align-items: center;
-    /* gap: 6px; */
-
 }
 .contact-label a {
     font-family: Poppins, "Noto Sans JP", sans-serif;
@@ -142,13 +138,13 @@ img {
     transition: all 0.2s ease;
 }
 .contact-label a:hover .icon-x {
-    content: url('/img/x-hover.svg');
+    content: url('./img/x-hover.svg');
 }
 .contact-label a:hover .icon-arrow {
-    content: url('/img/arrow-hover.svg');
+    content: url('./img/arrow-hover.svg');
 }
 .contact-label a:hover .icon-mail {
-    content: url('/img/mail-hover.svg');
+    content: url('./img/mail-hover.svg');
 }
 
 
